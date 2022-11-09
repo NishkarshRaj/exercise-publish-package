@@ -1,3 +1,11 @@
 {
-  "your": "json config here"
+  "name": "github",
+  "version": "1.0.0",
+  "description": "lorem ipsum",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "NishkarshRaj",
+  "license": "MIT"
 }
