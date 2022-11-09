@@ -4,20 +4,7 @@ on:
   push
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 14
-      - run: |
-          cd sample-packages/npm
-          npm install
-          npm test
-
   publish-gpr:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
